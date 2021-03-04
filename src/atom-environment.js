@@ -3,7 +3,6 @@ const path = require('path');
 const util = require('util');
 const { ipcRenderer } = require('electron');
 
-const _ = require('underscore-plus');
 const { deprecate } = require('grim');
 const { CompositeDisposable, Disposable, Emitter } = require('event-kit');
 const fs = require('fs-plus');
